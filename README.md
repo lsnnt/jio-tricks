@@ -2,6 +2,8 @@
 this is a repository to bypass jio restrictions and stream
 # jiosaavn
 Get the song url of jiosaavn using `lite.duckduckgo.com` after your 100% jio data quota exhausted and use jiosaavn.go build it using go and use it as ```./jiosaavn --url <url of song jiosaavn here>``` or you can also use ```go build jiosaavn.go --url <url of song jiosaavn here>``` and the url the script will generate will be used to stream music even after data quota exhausted.
+if it not works in your computer 
+add ```2600:140f:1c00::1740:8cd3    aac.saavncdn.com``` in ```/etc/hosts```
 
 # jiocinema
 Get the id of movie or any show
