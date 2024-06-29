@@ -43,7 +43,7 @@ func getguestauthtoken() string{
 	if err != nil {
 		log.Fatal(err)
 	}
-	fmt.Printf("%s\n", bodyText)
+	//fmt.Printf("%s\n", bodyText)
 	var dataa UserData
 	if err := json.Unmarshal([]byte(bodyText), &dataa); err != nil {
         log.Fatal(err)
